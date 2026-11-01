@@ -1,0 +1,313 @@
+{
+  "service": "1.38.0",
+  "textbook": "1.0.0-preview",
+  "revised": "2026-11-01",
+  "parts": [
+    {
+      "slug": "part-01",
+      "code": "PART 01",
+      "name": "AI 영상 제작 시작하기",
+      "chapters": [
+        {
+          "key": "1",
+          "title": "1장 AI 영상 제작이란?",
+          "link": "/v1/chapters/01-ai-video-production"
+        },
+        {
+          "key": "14",
+          "title": "14장 FECINE 제작 흐름과 두 가지 시작 경로",
+          "link": "/v1/chapters/14-production-flow"
+        },
+        {
+          "key": "15",
+          "title": "15장 로그인·기본 화면·튜토리얼",
+          "link": "/v1/chapters/15-login-and-tour"
+        },
+        {
+          "key": "16",
+          "title": "16장 새 작품과 작품 설정",
+          "link": "/v1/chapters/16-new-work"
+        }
+      ]
+    },
+    {
+      "slug": "part-02",
+      "code": "PART 02",
+      "name": "첫 번째 AI 영상 프로젝트",
+      "chapters": [
+        {
+          "key": "17",
+          "title": "17장 스토리에서 회차·장면·원고 쓰기",
+          "link": "/v1/chapters/17-story"
+        },
+        {
+          "key": "18",
+          "title": "18장 AI로 원고 쓰고 다듬기",
+          "link": "/v1/chapters/18-ai-writing"
+        },
+        {
+          "key": "19",
+          "title": "19장 [선택] 대본 파일이 있을 때: AI 구성",
+          "link": "/v1/chapters/19-ai-build"
+        }
+      ]
+    },
+    {
+      "slug": "part-03",
+      "code": "PART 03",
+      "name": "영상에 필요한 요소 만들기",
+      "chapters": [
+        {
+          "key": "20",
+          "title": "20장 캐릭터 만들기",
+          "link": "/v1/chapters/20-characters"
+        },
+        {
+          "key": "21",
+          "title": "21장 배경과 소품 만들기",
+          "link": "/v1/chapters/21-backgrounds-props"
+        },
+        {
+          "key": "22",
+          "title": "22장 캐릭터 시트와 의상으로 일관성 지키기",
+          "link": "/v1/chapters/22-character-sheets"
+        },
+        {
+          "key": "23",
+          "title": "23장 캐릭터 목소리 연결",
+          "link": "/v1/chapters/23-character-voice"
+        }
+      ]
+    },
+    {
+      "slug": "part-04",
+      "code": "PART 04",
+      "name": "스토리보드 제작하기",
+      "chapters": [
+        {
+          "key": "24",
+          "title": "24장 스토리보드에서 장면 구성하기",
+          "link": "/v1/chapters/24-storyboard"
+        },
+        {
+          "key": "25",
+          "title": "25장 카메라와 스타일 지정하기",
+          "link": "/v1/chapters/25-camera-style"
+        },
+        {
+          "key": "26",
+          "title": "26장 장면 프레임으로 시작 화면 정하기",
+          "link": "/v1/chapters/26-scene-frames"
+        }
+      ]
+    },
+    {
+      "slug": "part-05",
+      "code": "PART 05",
+      "name": "AI 영상 생성하기",
+      "chapters": [
+        {
+          "key": "27",
+          "title": "27장 영상 생성, 테이크 비교, 재생성",
+          "link": "/v1/chapters/27-video-generation"
+        }
+      ]
+    },
+    {
+      "slug": "part-06",
+      "code": "PART 06",
+      "name": "영상 완성하기",
+      "chapters": [
+        {
+          "key": "28",
+          "title": "28장 편집: 장면 잇기·트림·전환",
+          "link": "/v1/chapters/28-editing"
+        },
+        {
+          "key": "29",
+          "title": "29장 자막·음악·제목 카드·색보정",
+          "link": "/v1/chapters/29-subtitles-music-cards"
+        },
+        {
+          "key": "30",
+          "title": "30장 내보내기·다운로드·게시 요청",
+          "link": "/v1/chapters/30-export-publish"
+        }
+      ]
+    },
+    {
+      "slug": "part-07",
+      "code": "PART 07",
+      "name": "실전 프로젝트",
+      "chapters": [
+        {
+          "key": "p1",
+          "title": "실습 1 짧은 시네마틱 영상",
+          "link": "/v1/chapters/project-1-cinematic"
+        },
+        {
+          "key": "p2",
+          "title": "실습 2 제품 홍보 영상",
+          "link": "/v1/chapters/project-2-product-ad"
+        },
+        {
+          "key": "p3",
+          "title": "실습 3 스토리가 있는 AI 단편",
+          "link": "/v1/chapters/project-3-short-film"
+        }
+      ]
+    },
+    {
+      "slug": "part-08",
+      "code": "PART 08",
+      "name": "활용과 문제 해결",
+      "chapters": [
+        {
+          "key": "31",
+          "title": "31장 크레딧 아끼는 제작 습관",
+          "link": "/v1/chapters/31-saving-credits"
+        },
+        {
+          "key": "32",
+          "title": "32장 초보자가 겪는 실패 상황",
+          "link": "/v1/chapters/32-troubleshooting"
+        },
+        {
+          "key": "33",
+          "title": "33장 품질 높이기와 셀프 리뷰",
+          "link": "/v1/chapters/33-quality-review"
+        }
+      ]
+    }
+  ],
+  "tracks": {
+    "foundations": {
+      "name": "영상 제작 기초",
+      "items": [
+        {
+          "key": "2",
+          "title": "2장 기존 영상 제작과 AI 영상 제작의 차이",
+          "link": "/v1/chapters/02-traditional-vs-ai",
+          "status": "published"
+        },
+        {
+          "key": "3",
+          "title": "3장 영상의 기본 단위: 샷·컷·장면·시퀀스",
+          "link": "/v1/chapters/03-shot-cut-scene-sequence",
+          "status": "published"
+        },
+        {
+          "key": "4",
+          "title": "4장 카메라 언어: 샷 크기·앵글·움직임·렌즈",
+          "link": "/v1/chapters/04-camera-language",
+          "status": "published"
+        },
+        {
+          "key": "5",
+          "title": "5장 빛·색·분위기",
+          "link": "/v1/chapters/05-light-color-mood",
+          "status": "published"
+        },
+        {
+          "key": "6",
+          "title": "6장 소리: 대사·음악·효과음",
+          "link": "/v1/chapters/06-sound",
+          "status": "published"
+        },
+        {
+          "key": "7",
+          "title": "7장 이야기 구조와 스토리보드",
+          "link": "/v1/chapters/07-story-structure",
+          "status": "published"
+        },
+        {
+          "key": "fps-resolution-bitrate",
+          "title": "FPS · 해상도 · 비트레이트",
+          "link": "/v1/foundations/fps-resolution-bitrate",
+          "status": "planned"
+        },
+        {
+          "key": "editing-color-grading",
+          "title": "영상 편집과 색보정 이론",
+          "link": "/v1/foundations/editing-color-grading",
+          "status": "planned"
+        },
+        {
+          "key": "post-production",
+          "title": "후반 제작 기술",
+          "link": "/v1/foundations/post-production",
+          "status": "planned"
+        }
+      ]
+    },
+    "ai-basics": {
+      "name": "AI 기술 기초",
+      "items": [
+        {
+          "key": "8",
+          "title": "8장 AI는 어떻게 그림과 영상을 만드나",
+          "link": "/v1/chapters/08-how-ai-generates",
+          "status": "published"
+        },
+        {
+          "key": "9",
+          "title": "9장 프롬프트가 결과를 바꾸는 방식",
+          "link": "/v1/chapters/09-prompts",
+          "status": "published"
+        },
+        {
+          "key": "10",
+          "title": "10장 일관성: 같은 인물을 계속 등장시키는 법",
+          "link": "/v1/chapters/10-consistency",
+          "status": "published"
+        },
+        {
+          "key": "11",
+          "title": "11장 AI 결과물 평가, 안전, 저작권",
+          "link": "/v1/chapters/11-evaluation-safety-copyright",
+          "status": "published"
+        },
+        {
+          "key": "t2i-i2v-t2v",
+          "title": "Text-to-Image · Image-to-Video · Text-to-Video",
+          "link": "/v1/ai-basics/t2i-i2v-t2v",
+          "status": "planned"
+        },
+        {
+          "key": "multimodal-ai",
+          "title": "멀티모달 AI",
+          "link": "/v1/ai-basics/multimodal-ai",
+          "status": "planned"
+        },
+        {
+          "key": "limitations",
+          "title": "AI 생성 영상의 기술적 한계",
+          "link": "/v1/ai-basics/limitations",
+          "status": "planned"
+        }
+      ]
+    }
+  },
+  "appendix": [
+    {
+      "slug": "a-models-cost",
+      "title": "부록 A 모델과 비용",
+      "link": "/v1/appendix/a-models-cost"
+    },
+    {
+      "slug": "b-menu-index",
+      "title": "부록 B 메뉴·버튼 찾아보기",
+      "link": "/v1/appendix/b-menu-index"
+    },
+    {
+      "slug": "c-glossary",
+      "title": "부록 C 용어집",
+      "link": "/v1/appendix/c-glossary"
+    },
+    {
+      "slug": "d-future",
+      "title": "부록 D 향후 기능",
+      "link": "/v1/appendix/d-future"
+    }
+  ]
+}

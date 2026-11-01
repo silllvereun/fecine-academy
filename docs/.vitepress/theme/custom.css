@@ -1,0 +1,367 @@
+/* FECINE ACADEMY theme
+   Brand: the FECINE logo gradient (#7A4DFF → #B04CFF) is the only accent.
+   Light is the default surface; every token is redefined for .dark. */
+
+:root {
+  --vp-font-family-base: 'Pretendard', 'Pretendard Variable', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo',
+    'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif;
+  --vp-font-family-mono: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Consolas, 'D2Coding', monospace;
+
+  --vp-c-brand-1: #6a3df0;
+  --vp-c-brand-2: #7a4dff;
+  --vp-c-brand-3: #8f63ff;
+  --vp-c-brand-soft: rgba(122, 77, 255, 0.12);
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #7a4dff 20%, #b04cff 80%);
+
+  --fa-cost: #b45309;
+  --fa-cost-soft: rgba(217, 119, 6, 0.1);
+  --fa-check: #047857;
+  --fa-check-soft: rgba(16, 185, 129, 0.1);
+  --fa-planned: #b45309;
+  --fa-planned-soft: rgba(245, 158, 11, 0.12);
+  --fa-published: #047857;
+  --fa-published-soft: rgba(16, 185, 129, 0.12);
+}
+
+.dark {
+  --vp-c-brand-1: #a98bff;
+  --vp-c-brand-2: #9673ff;
+  --vp-c-brand-3: #7a4dff;
+  --vp-c-brand-soft: rgba(150, 115, 255, 0.16);
+
+  --fa-cost: #fbbf24;
+  --fa-cost-soft: rgba(251, 191, 36, 0.12);
+  --fa-check: #34d399;
+  --fa-check-soft: rgba(52, 211, 153, 0.12);
+  --fa-planned: #fbbf24;
+  --fa-planned-soft: rgba(251, 191, 36, 0.14);
+  --fa-published: #34d399;
+  --fa-published-soft: rgba(52, 211, 153, 0.14);
+}
+
+/* Korean text: keep words whole and give lines room. */
+.vp-doc {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+.vp-doc p,
+.vp-doc li {
+  line-height: 1.8;
+}
+.vp-doc h1 {
+  letter-spacing: -0.02em;
+}
+
+/* The opening question of a chapter. */
+.vp-doc blockquote {
+  border-left: 3px solid var(--vp-c-brand-2);
+  background: var(--vp-c-bg-soft);
+  border-radius: 0 8px 8px 0;
+  padding: 10px 16px;
+}
+.vp-doc blockquote > p {
+  color: var(--vp-c-text-1);
+  font-weight: 500;
+}
+
+/* Page header: part, status, versions, goals and result. */
+.page-header {
+  margin-bottom: 24px;
+}
+.page-header__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  font-size: 13px;
+  color: var(--vp-c-text-2);
+}
+.page-header__part {
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+}
+.page-header__badge,
+.status-pill {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 1px 9px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.is-published {
+  color: var(--fa-published);
+  background: var(--fa-published-soft);
+}
+.is-planned {
+  color: var(--fa-planned);
+  background: var(--fa-planned-soft);
+}
+.page-header__version {
+  font-variant-numeric: tabular-nums;
+}
+.page-header__card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin: 8px 0 28px;
+  padding: 16px 20px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+}
+@media (min-width: 768px) {
+  .page-header__card {
+    grid-template-columns: 3fr 2fr;
+  }
+}
+.page-header__label {
+  margin: 0 0 6px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--vp-c-brand-1);
+}
+.page-header__card ul {
+  margin: 0;
+  padding-left: 18px;
+  list-style: disc;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.page-header__result p:last-child {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+@media (min-width: 768px) {
+  .page-header__result {
+    border-left: 1px solid var(--vp-c-divider);
+    padding-left: 16px;
+  }
+}
+
+/* Extra callouts: COST and CHECK. */
+.custom-block.cost {
+  border: 1px solid transparent;
+  background-color: var(--fa-cost-soft);
+}
+.custom-block.cost .custom-block-title {
+  color: var(--fa-cost);
+}
+.custom-block.check {
+  border: 1px solid transparent;
+  background-color: var(--fa-check-soft);
+}
+.custom-block.check .custom-block-title {
+  color: var(--fa-check);
+}
+
+/* Check lists (REVIEW). */
+.vp-doc .task-list-item {
+  list-style: none;
+  margin-left: -1.2em;
+}
+.vp-doc .task-list-item input {
+  margin-right: 0.5em;
+  accent-color: var(--vp-c-brand-2);
+}
+
+/* Captures: framed so the screenshot edge is visible on any surface. */
+.vp-doc img {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  margin: 12px 0;
+}
+.VPNavBarTitle .logo,
+.VPNav img {
+  border: 0;
+  margin: 0;
+}
+
+/* Wide tables scroll inside themselves on phones. */
+.vp-doc table {
+  display: block;
+  overflow-x: auto;
+  font-size: 14px;
+}
+.vp-doc th {
+  white-space: nowrap;
+}
+
+/* Planned pages. */
+.planned-notice {
+  margin: 16px 0 24px;
+  padding: 14px 18px;
+  border: 1px dashed var(--fa-planned);
+  border-radius: 12px;
+  background: var(--fa-planned-soft);
+}
+.planned-notice p {
+  margin: 0;
+  font-size: 14px;
+}
+.planned-notice__title {
+  font-weight: 700;
+  color: var(--fa-planned);
+  margin-bottom: 4px !important;
+}
+
+/* Download card. */
+.vp-doc a.download-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin: 8px 8px 8px 0;
+  padding: 10px 16px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+}
+.vp-doc a.download-card:hover {
+  border-color: var(--vp-c-brand-2);
+}
+.download-card__icon {
+  display: inline-grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  font-weight: 700;
+}
+.download-card small {
+  display: block;
+  color: var(--vp-c-text-2);
+}
+
+/* Video examples. */
+.video-example {
+  margin: 16px 0;
+}
+.video-example video {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-divider);
+}
+.video-example__pending {
+  display: grid;
+  place-items: center;
+  gap: 2px;
+  aspect-ratio: 16 / 9;
+  border: 1px dashed var(--vp-c-divider);
+  border-radius: 8px;
+  background: var(--vp-c-bg-soft);
+  color: var(--fa-planned);
+  font-weight: 600;
+}
+.video-example__pending small,
+.video-example figcaption small {
+  display: block;
+  color: var(--vp-c-text-2);
+  font-weight: 400;
+}
+.video-example figcaption {
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--vp-c-text-2);
+}
+
+/* Flow diagram. */
+.flow-diagram {
+  margin: 20px 0;
+}
+.flow-diagram svg {
+  width: 100%;
+  height: auto;
+}
+.flow-diagram .fd-ink {
+  fill: var(--vp-c-text-1);
+}
+.flow-diagram .fd-quiet {
+  fill: var(--vp-c-text-2);
+}
+.flow-diagram .fd-edge {
+  stroke: var(--vp-c-text-3);
+}
+.flow-diagram .fd-edge-fill {
+  fill: var(--vp-c-text-3);
+}
+.flow-diagram .fd-main {
+  color: var(--vp-c-brand-2);
+  stroke: var(--vp-c-brand-2);
+}
+.flow-diagram figcaption {
+  text-align: center;
+  font-size: 13px;
+  color: var(--vp-c-text-2);
+}
+
+/* Home page sections below the hero. */
+.home-section {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 24px 24px 0;
+}
+.home-section h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 24px 0 12px;
+  border: 0;
+  padding: 0;
+}
+.home-flow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  counter-reset: step;
+}
+.home-flow li {
+  counter-increment: step;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 12px 14px;
+  background: var(--vp-c-bg-soft);
+}
+.home-flow li::before {
+  content: counter(step, decimal-leading-zero);
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--vp-c-brand-1);
+}
+.home-flow a {
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+}
+.home-flow small {
+  display: block;
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+  line-height: 1.5;
+  margin-top: 2px;
+}
+.home-version {
+  font-size: 13px;
+  color: var(--vp-c-text-2);
+  padding-bottom: 48px;
+}
+
+/* Home hero symbol: transparent artwork on light; on dark the original artwork
+   (white background) is shown as a rounded card so its glows stay intact. */
+.dark .VPHero .image-src {
+  border-radius: 28px;
+  box-shadow: 0 12px 40px rgba(122, 77, 255, 0.25);
+}
+.dark .VPHero .image-bg {
+  opacity: 0.35;
+}

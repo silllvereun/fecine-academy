@@ -1,0 +1,22 @@
+{
+  "name": "fecine-academy",
+  "version": "1.0.0-preview",
+  "private": true,
+  "description": "FECINE ACADEMY — 처음 시작하는 AI 영상 제작 온라인 교재 (VitePress)",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "check": "node scripts/check-site.mjs"
+  },
+  "devDependencies": {
+    "markdown-it-container": "4.0.0",
+    "markdown-it-task-lists": "2.1.1",
+    "vitepress": "1.6.4",
+    "vue": "3.5.13"
+  }
+}
