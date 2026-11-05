@@ -176,7 +176,8 @@ export default defineConfig({
 
   themeConfig: {
     logo: { src: '/brand/mark.png', alt: 'FECINE' },
-    siteTitle: TITLE,
+    siteTitle:
+      '<span class="brand-wordmark" role="img" aria-label="FECINE"></span><span class="brand-divider" aria-hidden="true">|</span><span class="brand-sub">ACADEMY</span>',
     nav: [
       { text: '교재', link: '/v1/parts/part-01', activeMatch: '^/v1/(parts|chapters)/' },
       {
@@ -193,7 +194,7 @@ export default defineConfig({
       {
         text: 'V1',
         items: [
-          { text: '교재 V1 · FECINE v1.38.0 기준', link: '/about/versions' },
+          { text: '변경 이력', link: '/about/versions' },
           { text: '집필 현황', link: '/about/status' },
           { text: '확인이 필요한 항목', link: '/about/verification' },
           { text: '강사 가이드', link: '/v1/instructor/' },
@@ -219,8 +220,9 @@ export default defineConfig({
       linkLabel: '처음으로 가기',
     },
     footer: {
-      message: '누구나 무료로 열람할 수 있는 FECINE 공식 교재입니다. 교재 V1 · FECINE v1.38.0 기준',
-      copyright: '© 2026 AIIR Inc. FECINE',
+      message:
+        '누구나 무료로 열람할 수 있는 <a href="https://fecine.ai" target="_blank" rel="noopener">FECINE</a> 공식 교재입니다.',
+      copyright: '© 2026 AIIR Inc.',
     },
     search: {
       provider: 'local',

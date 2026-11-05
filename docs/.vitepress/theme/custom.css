@@ -181,6 +181,44 @@
   margin: 0;
 }
 
+/* Nav brand: FECINE symbol + "fecine" wordmark + "| ACADEMY". The wordmark is a
+   transparent mask filled with the text color, so it works in light and dark. */
+.VPNavBarTitle .title > span {
+  display: inline-flex;
+  align-items: center;
+}
+/* The wordmark box (70x20) has its lowercase x-height zone ~2px below center,
+   so the divider and "ACADEMY" shift down 2px and use a cap height equal to
+   that x-height (~11px) to sit on the same baseline. */
+.brand-wordmark {
+  display: inline-block;
+  width: 70px;
+  height: 20px;
+  background-color: var(--vp-c-text-1);
+  -webkit-mask: url('/brand/wordmark-fecine.png') center / contain no-repeat;
+  mask: url('/brand/wordmark-fecine.png') center / contain no-repeat;
+}
+.brand-divider {
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  margin: 0 11px 0 10px;
+  font-size: 0;
+  background: var(--vp-c-text-3);
+  opacity: 0.6;
+  position: relative;
+  top: 2px;
+}
+.brand-sub {
+  position: relative;
+  top: 2px;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--vp-c-text-2);
+}
+
 /* Wide tables scroll inside themselves on phones. */
 .vp-doc table {
   display: block;
@@ -324,6 +362,16 @@
   list-style: none;
   counter-reset: step;
 }
+.vp-doc .home-flow,
+.home-flow {
+  list-style: none;
+  padding-left: 0;
+}
+.vp-doc .home-flow li,
+.home-flow li {
+  list-style: none;
+  margin: 0;
+}
 .home-flow li {
   counter-increment: step;
   border: 1px solid var(--vp-c-divider);
@@ -350,18 +398,46 @@
   line-height: 1.5;
   margin-top: 2px;
 }
-.home-version {
-  font-size: 13px;
-  color: var(--vp-c-text-2);
-  padding-bottom: 48px;
+
+/* Korean text wraps at word boundaries, not mid-word; very long tokens
+   (URLs, code) still break so they never overflow. */
+body {
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
-/* Home hero symbol: transparent artwork on light; on dark the original artwork
-   (white background) is shown as a rounded card so its glows stay intact. */
-.dark .VPHero .image-src {
-  border-radius: 28px;
-  box-shadow: 0 12px 40px rgba(122, 77, 255, 0.25);
+/* Home intro (HomeVideoHero.vue): feature cards and the section below stay
+   hidden while the video plays, then reveal one by one after the hero shrinks. */
+.VPHome .VPFeatures {
+  padding-top: 48px;
 }
-.dark .VPHero .image-bg {
-  opacity: 0.35;
+.VPHome:has(.home-video-hero) .VPFeatures .item,
+.VPHome:has(.home-video-hero) .home-section {
+  opacity: 0;
+  transform: translateY(28px);
+}
+.VPHome:has(.home-video-hero.is-done) .VPFeatures .item,
+.VPHome:has(.home-video-hero.is-done) .home-section {
+  animation: home-card-in 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: calc(1.8s + var(--home-i, 0) * 0.15s);
+}
+.VPFeatures .item:nth-child(1) { --home-i: 0; }
+.VPFeatures .item:nth-child(2) { --home-i: 1; }
+.VPFeatures .item:nth-child(3) { --home-i: 2; }
+.VPFeatures .item:nth-child(4) { --home-i: 3; }
+.VPFeatures .item:nth-child(5) { --home-i: 4; }
+.VPFeatures .item:nth-child(6) { --home-i: 5; }
+.VPHome .home-section { --home-i: 6.5; }
+@keyframes home-card-in {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .VPHome:has(.home-video-hero.is-done) .VPFeatures .item,
+  .VPHome:has(.home-video-hero.is-done) .home-section {
+    animation-duration: 0.01s;
+    animation-delay: 0s;
+  }
 }

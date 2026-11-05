@@ -4,22 +4,6 @@ title: 처음 시작하는 AI 영상 제작
 titleTemplate: FECINE ACADEMY
 description: 영상 제작의 기초부터 생성형 AI 모델 이해, FECINE 실전 워크플로까지. 로그인 없이 누구나 무료로 배우는 AI 영상 제작 온라인 교재.
 
-hero:
-  name: FECINE ACADEMY
-  text: 처음 시작하는 AI 영상 제작
-  tagline: 영상 제작의 기초부터 생성형 AI 모델 이해, FECINE 실전 워크플로까지
-  image:
-    light: /brand/hero-symbol.webp
-    dark: /brand/hero-symbol-card.webp
-    alt: FECINE 심볼
-  actions:
-    - theme: brand
-      text: 1장부터 읽기
-      link: /v1/chapters/01-ai-video-production
-    - theme: alt
-      text: 어디서 시작할까요?
-      link: /guide/start
-
 features:
   - title: AI 영상 제작 시작하기
     details: AI 영상 제작이 무엇인지 알고, FECINE에 들어가 첫 작품을 만듭니다.
@@ -54,17 +38,12 @@ features:
 책 전체가 하나의 예제 작품을 이어서 만듭니다. 앞 장의 결과물이 다음 장의 재료가 됩니다.
 
 <ol class="home-flow">
-  <li><a href="/v1/chapters/17-story.html">기획</a><small>장면 3개와 원고 · 17장</small></li>
-  <li><a href="/v1/chapters/20-characters.html">캐릭터</a><small>수아·도윤과 배경 · 20–23장</small></li>
-  <li><a href="/v1/chapters/24-storyboard.html">콘티</a><small>장면 구성·카메라·장면 프레임 · 24–26장</small></li>
-  <li><a href="/v1/chapters/27-video-generation.html">영상 생성</a><small>테이크 비교와 재생성 · 27장</small></li>
-  <li><a href="/v1/chapters/28-editing.html">편집</a><small>트림·전환·자막·음악 · 28–29장</small></li>
-  <li><a href="/v1/chapters/30-export-publish.html">내보내기</a><small>렌더·다운로드·게시 요청 · 30장</small></li>
+  <li><a href="/v1/chapters/17-story.html">기획</a><small>장면 3개와 원고</small></li>
+  <li><a href="/v1/chapters/20-characters.html">캐릭터</a><small>수아·도윤과 배경</small></li>
+  <li><a href="/v1/chapters/24-storyboard.html">콘티</a><small>장면 구성·카메라·장면 프레임</small></li>
+  <li><a href="/v1/chapters/27-video-generation.html">영상 생성</a><small>테이크 비교와 재생성</small></li>
+  <li><a href="/v1/chapters/28-editing.html">편집</a><small>트림·전환·자막·음악</small></li>
+  <li><a href="/v1/chapters/30-export-publish.html">내보내기</a><small>렌더·다운로드·게시 요청</small></li>
 </ol>
-
-<p class="home-version">
-교재 V1 1.0.0-preview · FECINE v1.38.0 화면 기준 · 원고 최종 수정 2026-11-01 ·
-<a href="/about/status.html">집필 현황</a> · <a href="/about/versions.html">변경 이력</a>
-</p>
 
 </div>
