@@ -4,7 +4,7 @@
 
 - 목표 주소: https://learn.fecine.ai (독립 서브도메인, 기본 경로 `/`)
 - 기술: VitePress 1.6 · Vue 3 · Markdown
-- 기준: 교재 V1 `1.0.0-preview` · FECINE 서비스 `v1.38.0` 화면
+- 기준: 교재 V1 `1.0.0-preview` · FECINE 서비스 `v1.74.0` 화면
 - 패키지 관리: npm (`package-lock.json`)
 
 ## 빠른 시작
