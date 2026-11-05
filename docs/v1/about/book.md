@@ -2,8 +2,8 @@
 title: "책 소개"
 description: "《처음 시작하는 AI 영상 제작》은 어떤 책인가"
 status: "published"
-serviceVersion: "1.38.0"
-revised: "2026-11-01"
+serviceVersion: "1.74.0"
+revised: "2026-11-06"
 ---
 # 책 소개
 
@@ -19,7 +19,7 @@ revised: "2026-11-01"
 | FECINE 실전 워크플로 | 기획 → 비주얼 → 영상 생성 → 편집 → 내보내기 | PART 05–10 |
 | 비용·오류 대응과 평가 | 크레딧 관리, 실패 상황 해결, 품질 점검 | PART 11 |
 
-대상 독자는 AI 영상 입문자, 파트너사 실무자, 교육기관 수강생입니다. 기준 버전은 FECINE V1(v1.38.0)이며, 원고는 Markdown으로 작성해 PDF·인쇄·온라인 강의로 변환합니다.
+대상 독자는 AI 영상 입문자, 파트너사 실무자, 교육기관 수강생입니다. 기준 버전은 FECINE V1(v1.74.0)이며, 원고는 Markdown으로 작성해 PDF·인쇄·온라인 강의로 변환합니다.
 
 ## 모든 장의 공통 구조: WHY · HOW · PRACTICE · REVIEW
 

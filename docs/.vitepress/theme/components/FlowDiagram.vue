@@ -1,5 +1,6 @@
 <script setup lang="ts">
 // The production-flow figure from the manuscript ("FECINE V1 제작 흐름 · 입구 3개, 모듈 8개"),
+// labels updated to the FECINE v1.74 menus (에피소드·씬, ✦ AI 자동생성, 등장인물, 음향, 샷 이미지).
 // redrawn with the same layout and labels.
 const C = 380
 const r1 = 90, r2 = 180, r3 = 280, r4 = 380, r5 = 480, r6 = 580, r7 = 670
@@ -12,12 +13,12 @@ const starts: Box[] = [
 ]
 const steps: Box[] = [
   { x: C, y: r2, w: 250, h: 52, title: '작품정보', sub: '제목 · 비율 · 해상도 · 스타일' },
-  { x: 230, y: r3, w: 250, h: 52, title: 'AI 구성', sub: '회차 · 장면 · 등장 요소 자동 추출' },
-  { x: 530, y: r3, w: 250, h: 52, title: '스토리', sub: '회차 · 장면 · 원고 작성과 다듬기' },
-  { x: C, y: r4, w: 250, h: 52, title: '캐릭터 · 아트', sub: '캐릭터 · 배경 · 소품 이미지' },
-  { x: 640, y: r4, w: 190, h: 52, title: '오디오 (선택)', sub: '보이스 파일 연결', dash: true },
-  { x: 125, y: r5, w: 190, h: 52, title: '장면 프레임 (선택)', sub: '영상의 시작 이미지', dash: true },
-  { x: C, y: r5, w: 250, h: 52, title: '스토리보드', sub: '장면별 영상 생성', main: true },
+  { x: 230, y: r3, w: 250, h: 52, title: '✦ AI 자동생성', sub: '에피소드·씬 추출 · 제작설계' },
+  { x: 530, y: r3, w: 250, h: 52, title: '스토리', sub: '에피소드 · 씬 · 씬 대본 작성' },
+  { x: C, y: r4, w: 250, h: 52, title: '등장인물 · 미술 · 공간', sub: '등장인물 · 소품 · 배경 이미지' },
+  { x: 640, y: r4, w: 190, h: 52, title: '음향 (선택)', sub: '보이스 파일 연결', dash: true },
+  { x: 125, y: r5, w: 190, h: 52, title: '샷 이미지 (선택)', sub: '샷의 시작 이미지', dash: true },
+  { x: C, y: r5, w: 250, h: 52, title: '스토리보드', sub: '씬별 영상 생성', main: true },
   { x: C, y: r6, w: 250, h: 52, title: '편집', sub: '타임라인 · 자막 · BGM · 전환' },
   { x: C, y: r7, w: 250, h: 52, title: '내보내기', sub: '렌더 · 다운로드 · 게시 요청' },
 ]

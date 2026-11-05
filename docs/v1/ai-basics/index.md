@@ -2,8 +2,8 @@
 title: "AI 기술 기초"
 description: "생성형 AI가 어떻게 그림과 영상을 만드는지, 왜 매번 결과가 다른지 이해합니다."
 status: "published"
-serviceVersion: "1.38.0"
-revised: "2026-11-01"
+serviceVersion: "1.74.0"
+revised: "2026-11-06"
 ---
 # AI 기술 기초
 

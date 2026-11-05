@@ -38,9 +38,9 @@ features:
 책 전체가 하나의 예제 작품을 이어서 만듭니다. 앞 장의 결과물이 다음 장의 재료가 됩니다.
 
 <ol class="home-flow">
-  <li><a href="/v1/chapters/17-story.html">기획</a><small>장면 3개와 원고</small></li>
-  <li><a href="/v1/chapters/20-characters.html">캐릭터</a><small>수아·도윤과 배경</small></li>
-  <li><a href="/v1/chapters/24-storyboard.html">콘티</a><small>장면 구성·카메라·장면 프레임</small></li>
+  <li><a href="/v1/chapters/17-story.html">기획</a><small>씬 3개와 씬 대본</small></li>
+  <li><a href="/v1/chapters/20-characters.html">등장인물</a><small>수아·도윤과 배경</small></li>
+  <li><a href="/v1/chapters/24-storyboard.html">콘티</a><small>씬 구성·카메라·샷 이미지</small></li>
   <li><a href="/v1/chapters/27-video-generation.html">영상 생성</a><small>테이크 비교와 재생성</small></li>
   <li><a href="/v1/chapters/28-editing.html">편집</a><small>트림·전환·자막·음악</small></li>
   <li><a href="/v1/chapters/30-export-publish.html">내보내기</a><small>렌더·다운로드·게시 요청</small></li>

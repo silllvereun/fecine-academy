@@ -113,28 +113,28 @@
   },
   {
     "key": "17",
-    "title": "17장 스토리에서 회차·장면·원고 쓰기",
+    "title": "17장 스토리에서 에피소드·씬·씬 대본 쓰기",
     "link": "/v1/chapters/17-story",
     "status": "published",
     "group": "PART 02 첫 번째 AI 영상 프로젝트"
   },
   {
     "key": "18",
-    "title": "18장 AI로 원고 쓰고 다듬기",
+    "title": "18장 AI로 씬 대본 쓰고 다듬기",
     "link": "/v1/chapters/18-ai-writing",
     "status": "published",
     "group": "PART 02 첫 번째 AI 영상 프로젝트"
   },
   {
     "key": "19",
-    "title": "19장 [선택] 대본 파일이 있을 때: AI 구성",
+    "title": "19장 [선택] 대본 파일이 있을 때: AI 자동생성",
     "link": "/v1/chapters/19-ai-build",
     "status": "published",
     "group": "PART 02 첫 번째 AI 영상 프로젝트"
   },
   {
     "key": "20",
-    "title": "20장 캐릭터 만들기",
+    "title": "20장 등장인물 만들기",
     "link": "/v1/chapters/20-characters",
     "status": "published",
     "group": "PART 03 영상에 필요한 요소 만들기"
@@ -155,14 +155,14 @@
   },
   {
     "key": "23",
-    "title": "23장 캐릭터 목소리 연결",
+    "title": "23장 등장인물 목소리 연결",
     "link": "/v1/chapters/23-character-voice",
     "status": "published",
     "group": "PART 03 영상에 필요한 요소 만들기"
   },
   {
     "key": "24",
-    "title": "24장 스토리보드에서 장면 구성하기",
+    "title": "24장 스토리보드에서 씬 구성하기",
     "link": "/v1/chapters/24-storyboard",
     "status": "published",
     "group": "PART 04 스토리보드 제작하기"
@@ -176,7 +176,7 @@
   },
   {
     "key": "26",
-    "title": "26장 장면 프레임으로 시작 화면 정하기",
+    "title": "26장 샷 이미지로 시작 화면 정하기",
     "link": "/v1/chapters/26-scene-frames",
     "status": "published",
     "group": "PART 04 스토리보드 제작하기"
@@ -190,7 +190,7 @@
   },
   {
     "key": "28",
-    "title": "28장 편집: 장면 잇기·트림·전환",
+    "title": "28장 편집: 씬 잇기·트림·전환",
     "link": "/v1/chapters/28-editing",
     "status": "published",
     "group": "PART 06 영상 완성하기"
@@ -267,7 +267,7 @@
   },
   {
     "key": "/v1/about/features-summary",
-    "title": "FECINE 기능 요약 (v1.38.0)",
+    "title": "FECINE 기능 요약",
     "link": "/v1/about/features-summary",
     "status": "published",
     "group": "교재 정보"
@@ -302,14 +302,14 @@
   },
   {
     "key": "/v1/appendix/a-models-cost",
-    "title": "부록 A 모델과 비용 (v1.38.0)",
+    "title": "부록 A 모델과 비용",
     "link": "/v1/appendix/a-models-cost",
     "status": "published",
     "group": "부록"
   },
   {
     "key": "/v1/appendix/b-menu-index",
-    "title": "부록 B 메뉴·버튼 찾아보기 (v1.38.0)",
+    "title": "부록 B 메뉴·버튼 찾아보기",
     "link": "/v1/appendix/b-menu-index",
     "status": "published",
     "group": "부록"
@@ -323,7 +323,7 @@
   },
   {
     "key": "/v1/appendix/d-future",
-    "title": "부록 D 향후 기능 (v1.38.0 기준)",
+    "title": "부록 D 향후 기능",
     "link": "/v1/appendix/d-future",
     "status": "published",
     "group": "부록"
@@ -386,28 +386,28 @@
   },
   {
     "key": "/v1/models/video/seedance-2-0-fast",
-    "title": "Seedance 2.0 Fast / Fast VIP",
+    "title": "Seedance 2.0 Fast / Fast Global",
     "link": "/v1/models/video/seedance-2-0-fast",
     "status": "published",
     "group": "AI 모델 가이드"
   },
   {
     "key": "/v1/models/video/seedance-2-0",
-    "title": "Seedance 2.0 / 2.0 VIP",
+    "title": "Seedance 2.0 / 2.0 Global",
     "link": "/v1/models/video/seedance-2-0",
     "status": "published",
     "group": "AI 모델 가이드"
   },
   {
     "key": "/v1/models/video/seedance-2-5",
-    "title": "Seedance 2.5 / 2.5 VIP",
+    "title": "Seedance 2.5 / 2.5 Global",
     "link": "/v1/models/video/seedance-2-5",
     "status": "published",
     "group": "AI 모델 가이드"
   },
   {
     "key": "/v1/models/video/wan-3-0",
-    "title": "Wan 3.0",
+    "title": "Wan 3.0 / 3.0 Global / 3.0 Prime Global",
     "link": "/v1/models/video/wan-3-0",
     "status": "published",
     "group": "AI 모델 가이드"

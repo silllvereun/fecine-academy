@@ -16,11 +16,11 @@ const item = (text: string, link: string): DefaultTheme.SidebarItem => ({
 })
 
 const modelCards = [
-  ['Seedance 2.0 / 2.0 VIP', 'seedance-2-0'],
-  ['Seedance 2.0 Fast / Fast VIP', 'seedance-2-0-fast'],
-  ['Seedance 2.5 / 2.5 VIP', 'seedance-2-5'],
+  ['Seedance 2.0 / 2.0 Global', 'seedance-2-0'],
+  ['Seedance 2.0 Fast / Fast Global', 'seedance-2-0-fast'],
+  ['Seedance 2.5 / 2.5 Global', 'seedance-2-5'],
   ['Kling v3', 'kling-v3'],
-  ['Wan 3.0', 'wan-3-0'],
+  ['Wan 3.0 / 3.0 Global / 3.0 Prime Global', 'wan-3-0'],
 ]
 
 const sidebar: DefaultTheme.SidebarItem[] = [
