@@ -4,8 +4,8 @@ description: "내 작품이 어디가 부족한지 어떻게 알 수 있을까�
 chapter: "33장"
 part: "PART 08 활용과 문제 해결"
 status: "published"
-serviceVersion: "1.74.0"
-revised: "2026-11-06"
+serviceVersion: "1.82.0"
+revised: "2026-11-10"
 goals:
   - "완성한 영상을 다섯 가지 축으로 나눠 봅니다."
   - "결과가 아니라 원인을 찾고, 그 원인을 고칠 화면으로 돌아갑니다."

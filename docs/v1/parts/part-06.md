@@ -2,8 +2,8 @@
 title: "PART 06. 영상 완성하기"
 description: "씬을 한 편으로 편집하고 자막·음악을 넣어 파일로 내보냅니다."
 status: "published"
-serviceVersion: "1.74.0"
-revised: "2026-11-06"
+serviceVersion: "1.82.0"
+revised: "2026-11-10"
 ---
 # PART 06. 영상 완성하기
 

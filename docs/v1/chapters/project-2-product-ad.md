@@ -4,8 +4,8 @@ description: "사람이 아니라 제품이 주인공일 때, 제품 모양이 �
 chapter: "실습 2"
 part: "PART 07 실전 프로젝트"
 status: "published"
-serviceVersion: "1.74.0"
-revised: "2026-11-06"
+serviceVersion: "1.82.0"
+revised: "2026-11-10"
 goals:
   - "템플릿 30초 제품 광고로 광고의 기본 구조를 따라 만듭니다."
   - "제품을 소품으로 만들어 모든 씬에 연결합니다."

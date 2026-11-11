@@ -2,8 +2,8 @@
 title: "파트너사 강의 진행 가이드"
 description: "FECINE ACADEMY 교재로 강의하는 강사·파트너사를 위한 안내"
 status: "published"
-serviceVersion: "1.74.0"
-revised: "2026-11-06"
+serviceVersion: "1.82.0"
+revised: "2026-11-10"
 ---
 # 파트너사 강의 진행 가이드
 

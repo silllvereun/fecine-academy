@@ -4,8 +4,8 @@ description: "같은 정류장도 노을빛이면 설렘이, 푸른 밤빛이면
 chapter: "5장"
 part: "영상 제작 기초"
 status: "published"
-serviceVersion: "1.74.0"
-revised: "2026-11-06"
+serviceVersion: "1.82.0"
+revised: "2026-11-10"
 goals:
   - "빛의 방향·세기·색이 분위기를 바꾸는 방식을 안다."
   - "FECINE의 작품 스타일, 씬 스타일 탭의 룩, 편집의 색보정을 구분해 쓴다."

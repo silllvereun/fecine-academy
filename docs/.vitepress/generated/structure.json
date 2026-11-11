@@ -1,7 +1,7 @@
 {
-  "service": "1.74.0",
+  "service": "1.82.0",
   "textbook": "1.0.0-preview",
-  "revised": "2026-11-06",
+  "revised": "2026-11-10",
   "parts": [
     {
       "slug": "part-01",
@@ -154,6 +154,11 @@
           "key": "p3",
           "title": "실습 3 스토리가 있는 AI 단편",
           "link": "/v1/chapters/project-3-short-film"
+        },
+        {
+          "key": "p4",
+          "title": "실습 4 프리소스 원작으로 만드는 영상",
+          "link": "/v1/chapters/project-4-free-source"
         }
       ]
     },

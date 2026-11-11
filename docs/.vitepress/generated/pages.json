@@ -231,6 +231,13 @@
     "group": "PART 07 실전 프로젝트"
   },
   {
+    "key": "p4",
+    "title": "실습 4 프리소스 원작으로 만드는 영상",
+    "link": "/v1/chapters/project-4-free-source",
+    "status": "published",
+    "group": "PART 07 실전 프로젝트"
+  },
+  {
     "key": "31",
     "title": "31장 크레딧 아끼는 제작 습관",
     "link": "/v1/chapters/31-saving-credits",

@@ -4,8 +4,8 @@ description: "비 오는 정류장에 혼자 선 사람도, 멀리서 보면 외
 chapter: "4장"
 part: "영상 제작 기초"
 status: "published"
-serviceVersion: "1.74.0"
-revised: "2026-11-06"
+serviceVersion: "1.82.0"
+revised: "2026-11-10"
 goals:
   - "샷 크기·앵글·움직임·렌즈·구도가 주는 느낌을 구분한다."
   - "FECINE 카메라 탭에서 원하는 촬영 방식을 고른다."

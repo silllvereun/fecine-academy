@@ -7,13 +7,14 @@ revised: "2026-11-06"
 
 # 어디서 시작할까요?
 
-FECINE ACADEMY는 로그인 없이 누구나 무료로 읽는 온라인 교재입니다. 인쇄 교재 《처음 시작하는 AI 영상 제작》 V1의 원고를 그대로 옮겼고, FECINE v1.74.0 화면을 기준으로 씁니다. FECINE 홈페이지 위쪽 메뉴의 `아카데미`에서도 이 교재로 들어올 수 있습니다.
+FECINE ACADEMY는 로그인 없이 누구나 무료로 읽는 온라인 교재입니다. 인쇄 교재 《처음 시작하는 AI 영상 제작》 V1의 원고를 그대로 옮겼고, FECINE v1.82.0 화면을 기준으로 씁니다. FECINE 홈페이지 위쪽 메뉴의 `아카데미`에서도 이 교재로 들어올 수 있습니다.
 
 ## 나에게 맞는 시작점
 
 | 이런 분이라면 | 여기서 시작하세요 | 이어서 |
 | --- | --- | --- |
 | AI 영상이 처음이고, 바로 만들어 보고 싶다 | [1장 AI 영상 제작이란?](/v1/chapters/01-ai-video-production) | PART 01 → PART 08 순서대로 |
+| 쓸 이야기가 아직 없고, 공개된 원작으로 바로 만들어 보고 싶다 | [실습 4 프리소스 원작으로 만드는 영상](/v1/chapters/project-4-free-source) | [15장 튜토리얼](/v1/chapters/15-login-and-tour) → [16장](/v1/chapters/16-new-work) |
 | 영상 제작 경험은 있고, FECINE 사용법이 궁금하다 | [14장 FECINE 제작 흐름](/v1/chapters/14-production-flow) | [AI 기술 기초](/v1/ai-basics/)를 함께 |
 | 영상 언어부터 차근차근 배우고 싶다 | [영상 제작 기초](/v1/foundations/) | [AI 기술 기초](/v1/ai-basics/) → PART 01 |
 | 어떤 AI 모델을 써야 할지 고민이다 | [AI 모델 가이드](/v1/models/) | [부록 A 모델과 비용](/v1/appendix/a-models-cost) |

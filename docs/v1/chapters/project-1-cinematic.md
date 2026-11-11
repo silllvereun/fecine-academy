@@ -4,8 +4,8 @@ description: "지금까지 배운 것만으로, 책을 보지 않고 한 편을 
 chapter: "실습 1"
 part: "PART 07 실전 프로젝트"
 status: "published"
-serviceVersion: "1.74.0"
-revised: "2026-11-06"
+serviceVersion: "1.82.0"
+revised: "2026-11-10"
 goals:
   - "대사 없이 화면과 소리만으로 분위기를 전합니다."
   - "샷 이미지를 먼저 만들고 영상을 생성하는 흐름을 혼자 반복합니다."

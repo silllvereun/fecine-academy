@@ -2,8 +2,8 @@
 title: "PART 05. AI 영상 생성하기"
 description: "씬을 영상으로 생성하고 테이크를 비교해 고릅니다."
 status: "published"
-serviceVersion: "1.74.0"
-revised: "2026-11-06"
+serviceVersion: "1.82.0"
+revised: "2026-11-10"
 ---
 # PART 05. AI 영상 생성하기
 
