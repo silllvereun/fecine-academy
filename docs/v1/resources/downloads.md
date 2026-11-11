@@ -2,8 +2,8 @@
 title: 다운로드
 description: 실습 파일 내려받기
 status: published
-serviceVersion: "1.74.0"
-revised: "2026-11-06"
+serviceVersion: "1.82.0"
+revised: "2026-11-10"
 ---
 
 # 다운로드

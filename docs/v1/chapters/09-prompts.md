@@ -4,8 +4,8 @@ description: "8장에서 본 것처럼 AI는 빈칸을 ‘흔한 모습’으로
 chapter: "9장"
 part: "AI 기술 기초"
 status: "published"
-serviceVersion: "1.74.0"
-revised: "2026-11-06"
+serviceVersion: "1.82.0"
+revised: "2026-11-10"
 goals:
   - "좋은 프롬프트의 다섯 요소를 안다."
   - "FECINE 프롬프트 탭의 구조 칸에 나눠 쓴다."

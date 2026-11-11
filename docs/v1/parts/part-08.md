@@ -2,8 +2,8 @@
 title: "PART 08. 활용과 문제 해결"
 description: "비용을 관리하고, 막혔을 때 원인을 찾고, 결과물을 스스로 평가합니다."
 status: "published"
-serviceVersion: "1.74.0"
-revised: "2026-11-06"
+serviceVersion: "1.82.0"
+revised: "2026-11-10"
 ---
 # PART 08. 활용과 문제 해결
 

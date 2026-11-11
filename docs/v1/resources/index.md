@@ -2,8 +2,8 @@
 title: 실습 자료실
 description: 예제 대본·프롬프트, 체크리스트, 다운로드 파일
 status: published
-serviceVersion: "1.74.0"
-revised: "2026-11-06"
+serviceVersion: "1.82.0"
+revised: "2026-11-10"
 ---
 
 # 실습 자료실

@@ -38,6 +38,6 @@ revised: "2026-11-06"
 
 본문에 실린 결과 이미지·영상(결과 01-A, 27-A, 30-A 등)은 이 교재의 예제 프롬프트로 FECINE에서 **실제로 생성한 것만** 싣습니다. 아직 생성하지 않은 결과는 <Badge type="warning" text="자료 준비 중" />으로 표시해 두었습니다.
 
-<VideoExample caption="결과 30-A 「비 오는 정류장」 완성 영상 (마스터 MP4)" meta="FECINE v1.74.0 · 16:9 · 720p" />
+<VideoExample caption="결과 30-A 「비 오는 정류장」 완성 영상 (마스터 MP4)" meta="FECINE v1.82.0 · 16:9 · 720p" />
 
 비용은 [13장 크레딧과 비용 계산](/v1/chapters/13-credits-and-cost)과 [31장 크레딧 아끼는 제작 습관](/v1/chapters/31-saving-credits)에서 미리 계산해 볼 수 있습니다.

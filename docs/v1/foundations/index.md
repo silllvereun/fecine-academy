@@ -2,8 +2,8 @@
 title: "영상 제작 기초"
 description: "카메라를 들기 전에 알아야 할 영상 언어입니다. 도구가 바뀌어도 오래 쓰는 지식입니다."
 status: "published"
-serviceVersion: "1.74.0"
-revised: "2026-11-06"
+serviceVersion: "1.82.0"
+revised: "2026-11-10"
 ---
 # 영상 제작 기초
 

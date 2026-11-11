@@ -2,8 +2,8 @@
 title: "PDF 교재"
 description: "PDF 교재 — 작성 예정"
 status: planned
-serviceVersion: "1.74.0"
-revised: "2026-11-06"
+serviceVersion: "1.82.0"
+revised: "2026-11-10"
 ---
 
 # PDF 교재

@@ -2,8 +2,8 @@
 title: "PART 03. 영상에 필요한 요소 만들기"
 description: "등장인물·배경·소품·목소리를 만들어 씬마다 같은 모습이 나오게 고정합니다."
 status: "published"
-serviceVersion: "1.74.0"
-revised: "2026-11-06"
+serviceVersion: "1.82.0"
+revised: "2026-11-10"
 ---
 # PART 03. 영상에 필요한 요소 만들기
 

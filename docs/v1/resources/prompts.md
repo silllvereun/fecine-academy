@@ -2,8 +2,8 @@
 title: "예제 대본·프롬프트 모음"
 description: "본문 실습의 예제 대본과 프롬프트를 한곳에"
 status: "published"
-serviceVersion: "1.74.0"
-revised: "2026-11-06"
+serviceVersion: "1.82.0"
+revised: "2026-11-10"
 ---
 # 예제 대본·프롬프트 모음
 

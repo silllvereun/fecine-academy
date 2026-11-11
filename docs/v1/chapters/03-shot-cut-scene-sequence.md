@@ -4,8 +4,8 @@ description: "영상을 통째로 생각하면 무엇부터 만들어야 할지 
 chapter: "3장"
 part: "영상 제작 기초"
 status: "published"
-serviceVersion: "1.74.0"
-revised: "2026-11-06"
+serviceVersion: "1.82.0"
+revised: "2026-11-10"
 goals:
   - "프레임·샷·컷·장면(씬)·시퀀스·에피소드를 구분한다."
   - "FECINE의 ‘씬’과 ‘샷’이 각각 무엇인지 안다."
